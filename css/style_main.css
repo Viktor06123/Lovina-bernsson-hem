@@ -9,8 +9,8 @@ body {
 
 
 #sticky-header {
-    color: green;
-    background-color: black;
+    color: #FF007F;
+    background-color: #FFDDEE;
     position: sticky;
     top: 0px;
     height: 90px;
@@ -34,8 +34,7 @@ body {
   display: inline-block;
   padding: 18px 45px;
   margin: 8px;
-  background-color: #007bff;
-  color: white;
+  color: #FF007F;
   text-decoration: none;
   border-radius: 10%;
   font-weight: bold;
@@ -44,10 +43,11 @@ body {
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #eca366;
 }
 
 #button-group {
+    padding-left: 1.2%;
     display: flex; 
     justify-content: space-evenly;
     width: 70%;
@@ -57,31 +57,36 @@ body {
 /*bild och textruta*/
 
 #photo_n_text {
-  background-color: aquamarine;
+  background-color: #FFDDEE;
   height: 90vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 #Portratt {
-  width: 40vh;
+  height: 50vh;
+  width: auto;
+  position: absolute;
+  bottom: 0px;
 
 }
 
 #text_om_mig {
+  padding-bottom: 25%;
   font-size: larger;
-  width: 30%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  padding-left: 20%;
   text-align: center;
+
   justify-content: center;
 
 }
 
 .rubriker {
-  color: red;
-  font-size: xx-large;
+  color: #ff7aa4;
+  font-size: 5rem;
   padding-bottom: 2%;
 }
