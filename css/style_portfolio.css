@@ -78,14 +78,14 @@ body {
 }
 
 .box:nth-child(1) { 
-    background-image: url(img/exempel_tavla.jpg); 
+    background-image: url(https://github.com/Viktor06123/Lovina-bernsson-hem/blob/main/img/exempel_tavla.jpg); 
     
 
 }
 
 
 .box:nth-child(2) { 
-    background-image: url(img/Portratt.jpeg); 
+    background-image: url(https://github.com/Viktor06123/Lovina-bernsson-hem/blob/main/img/exempel_tavla.jpg); 
 
 }
 
@@ -117,3 +117,4 @@ body {
 
 
 }
+
