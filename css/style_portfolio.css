@@ -55,10 +55,10 @@ body {
 
 #boxes-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  grid-template-rows: repeat(2, 1fr);    /* 2 equal rows */
-  gap: 10px; /* optional spacing */
-  padding: 10px; /* optional padding */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);   
+  gap: 10px;
+  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -78,14 +78,14 @@ body {
 }
 
 .box:nth-child(1) { 
-    background-image: url(/Lovina_foto_hemsida_egen/img/exempel_tavla.jpg); 
+    background-image: url(img/exempel_tavla.jpg); 
     
 
 }
 
 
 .box:nth-child(2) { 
-    background-image: url(/Lovina_foto_hemsida_egen/img/Portratt.jpeg); 
+    background-image: url(img/Portratt.jpeg); 
 
 }
 
@@ -114,5 +114,6 @@ body {
 .box:hover {
     filter: brightness(70%);
     transition: 0.3s;
+
 
 }
