@@ -57,30 +57,26 @@ body {
 /*bild och textruta*/
 
 #photo_n_text {
-  background-color: #FFDDEE;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+background-color: #FFDDEE;
+display: flex;
+align-items: center;
+flex-direction: column;
+
 }
 
 #Portratt {
-  height: 50vh;
-  width: auto;
-  position: absolute;
-  bottom: 0px;
-
+  height: auto;
+  width: 15vw;
 }
 
 #text_om_mig {
-  padding-bottom: 25%;
+  padding-bottom: 5%;
+  color: #FF007F;
   font-size: larger;
   width: 50%;
   display: flex;
   flex-direction: column;
   text-align: center;
-
   justify-content: center;
 
 }
