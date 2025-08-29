@@ -42,7 +42,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #eca366;
+  background-color: #ff7aa4;
 }
 
 #button-group {
@@ -140,7 +140,7 @@ body {
   font-family: sans-serif;
   user-select: none;
   box-shadow: inset 0 0 0 55px #FFCCE1;
-  background-image: url(img/kuligcock.jpg);
+  background-image: url(../img/kuligcock.jpg);
   z-index: 2;
 }
 
