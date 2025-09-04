@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style_contact_me.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovina Bernsson</title>
+</head>
+<body>
+     <section id="sticky-header">
+        <h1 id="logga">Lovina Bernsson</h1>
+            <div id="button-group">     
+                <a href="index.html" class="btn" >About me</a>
+                <a href="Portfolio.html" class="btn" >Portfolio</a>
+                <a href="Contact_me.html" class="btn" >Contact me!</a>
+            </div>
+         <!-- Hamburger Icon -->
+        <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+        <a href="index.html" class="btn">About me</a>
+        <a href="Portfolio.html" class="btn">Portfolio</a>
+        <a href="Contact_me.html" class="btn">Contact me!</a>
+        </div>
+    </section>
+
+    <main> 
+
+        <section id="left_contact">
+                <p class="kontaktuppgifter">Email: lovinanonon@gmail.com</p>
+                <p class="kontaktuppgifter">Telefonummer: 072-449 64 77</p>
+                <p class="kontaktuppgifter">Address: Brunnsbacken 1</p>
+        </section>
+
+        <section id="right_order">
+            
+            <h3 id="order_box">
+                <span class="rubriker">Order from me (:</span> 
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum tempora eos asperiores labore ratione voluptatibus facilis quae fugit repellat quod temporibus harum quam veniam, iusto dolores doloribus totam accusamus!</p>
+            </h3>
+    
+        </section>
+    </main>
+
+    <script>
+  const hamburger = document.querySelector('.hamburger');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
+</script>
+
+</body>
+
+</html>

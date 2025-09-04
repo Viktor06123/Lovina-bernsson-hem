@@ -1,0 +1,152 @@
+
+
+
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 2%;
+  z-index: 2;
+}
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #FF007F;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  background: #FFDDEE;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  z-index: 1;
+}
+.mobile-menu a {
+  margin: 10px 0;
+}
+
+#sticky-header {
+    color: #FF007F;
+    background-color: #FFDDEE;
+    position: sticky;
+    top: 0px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logga {
+   position: absolute;
+   left: 2%;
+}
+
+* {
+  margin: 0;
+}
+
+/* Knappar */
+
+.btn {
+  display: inline-block;
+  padding: 18px 45px;
+  margin: 8px;
+  color: #FF007F;
+  text-decoration: none;
+  border-radius: 10%;
+  font-weight: bold;
+  font-size: x-large;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff7aa4;
+}
+
+#button-group {
+    padding-left: 1.2%;
+    display: flex; 
+    justify-content: space-evenly;
+    width: 70%;
+    z-index: 1;
+}
+
+/*bild och textruta*/
+
+#photo_n_text {
+background-color: #FFDDEE;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+#Portratt {
+  height: auto;
+  width: 15vw;
+}
+
+#text_om_mig {
+  padding-bottom: 5%;
+  color: #FF007F;
+  font-size: larger;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.rubriker {
+  color: #ff7aa4;
+  font-size: 5rem;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 480px) {
+  #boxes-grid {
+    grid-template-columns: 1fr;
+  }
+  #logga {
+    font-size: 1.5rem;
+  }
+  .rubriker {
+    font-size: 3rem;
+  }
+  #Portratt {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #button-group {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  #boxes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #text_om_mig, #photo_n_text {
+    width: 100%;
+  }
+}

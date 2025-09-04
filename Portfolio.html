@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style_portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovina Bernsson</title>
+</head
+<body>
+
+   
+
+
+    <section id="sticky-header">
+         <!-- Hamburger Icon -->
+        <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+        <a href="index.html" class="btn">About me</a>
+        <a href="Portfolio.html" class="btn">Portfolio</a>
+        <a href="Contact_me.html" class="btn">Contact me!</a>
+        </div>
+
+        <h1 id="logga">Lovina Bernsson</h1>
+            <div id="button-group">     
+                <a href="index.html" class="btn" >About me</a>
+                <a href="Portfolio.html" class="btn" >Portfolio</a>
+                <a href="Contact_me.html" class="btn" >Contact me!</a>
+            </div>
+    </section>
+
+    <section id="boxes-grid">
+        <a href="Akryl.html" class="box_link">
+            <div class="box">Akryl</div>
+        </a>
+        
+        
+        <a href="Pastell.html" class="box_link">
+            <div class="box">Pastell</div>
+        </a>
+        
+        <a href="Portraits.html" class="box_link">
+            <div class="box">Portraits</div>
+        </a>
+        
+        <a href="Photography.html" class="box_link">
+            <div class="box">Photography</div>
+        </a>
+        
+        <a href="animals.html" class="box_link">
+            <div class="box">Animals</div>
+        </a>
+        
+        <a href="other.html" class="box_link">
+            <div class="box">Other</div>
+        </a>
+        
+    </section >
+
+    <script>
+  const hamburger = document.querySelector('.hamburger');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
+    </script>
+ 
+</body>
+
+</html>
+
