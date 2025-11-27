@@ -16,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    z-index: 2;
 }
 
 #logga {
@@ -96,8 +97,6 @@ body {
 .box:hover {
     filter: brightness(70%);
     transition: 0.3s;
-
-
 }
 
 
@@ -108,7 +107,6 @@ body {
   border: 2px transparent;
   height: 40vh;
   display: flex;
-  z-index: 1;
   align-items: end;
   justify-content: center;
   font-size: 3rem;
@@ -116,7 +114,6 @@ body {
   user-select: none;
   box-shadow: inset 0 0 0 55px #f4e2e2;
   background-image: url(../img/kuligcock.jpg);
-  z-index: 2;
 }
 
 .inner_box:hover { 
@@ -159,8 +156,7 @@ a {
 }
 
 #footer {
-
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: #FFE8E8;
   filter:brightness(97%);
@@ -168,4 +164,14 @@ a {
   justify-content: center;
   flex-direction: column;
   color: #BA5B5B;
+  padding-left: 3%;
+}
+
+#little_left {
+  padding-left: 1%;
+
+}
+
+.kontaktuppgifter {
+  font-size: 1rem;
 }

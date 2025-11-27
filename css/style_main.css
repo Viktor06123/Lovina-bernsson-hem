@@ -81,14 +81,13 @@ flex-direction: column;
 }
 
 .rubriker {
-  color: #BA5B5B;
+  color: #FF007F;
   font-size: 4rem;
   padding: 5%;
 }
 
 #footer {
-
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: #FFE8E8;
   filter:brightness(97%);
@@ -96,4 +95,61 @@ flex-direction: column;
   justify-content: center;
   flex-direction: column;
   color: #BA5B5B;
+
+}
+
+#little_left {
+  padding-left: 3%;
+
+}
+
+.kontaktuppgifter {
+  font-size: 1rem;
+}
+
+
+#contact {
+  background: #f2f2f2;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box {
+  max-width: 600px;
+  width: 100%;
+  background: #FFE8E8;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  color: #BA5B5B;
+}
+
+.contact-box h2 {
+  margin-bottom: 10px;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  padding: 10px;
+  border: 2px solid #cc0000;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact-box button {
+  width: 120px;
+  padding: 10px;
+  background: #cc0000;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
 }
