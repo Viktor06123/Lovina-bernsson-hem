@@ -10,7 +10,7 @@ body {
 
 #sticky-header {
     color: #FF007F;
-    background-color: #FFDDEE;
+    background-color: #FFE7BD;
     position: sticky;
     top: 0px;
     height: 90px;
@@ -42,10 +42,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #ff7aa4;
-}
-
 #button-group {
     padding-left: 1.2%;
     display: flex; 
@@ -57,7 +53,7 @@ body {
 /*bild och textruta*/
 
 #photo_n_text {
-background-color: #FFDDEE;
+background-color: #FFE8E8;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -67,11 +63,14 @@ flex-direction: column;
 #Portratt {
   height: auto;
   width: 15vw;
+  display: flex;
+  align-self: center;
+  padding-bottom: 2%;
 }
 
 #text_om_mig {
   padding-bottom: 5%;
-  color: #FF007F;
+  color: #BA5B5B;
   font-size: larger;
   width: 50%;
   display: flex;
@@ -82,7 +81,19 @@ flex-direction: column;
 }
 
 .rubriker {
-  color: #ff7aa4;
-  font-size: 5rem;
-  padding-bottom: 2%;
+  color: #BA5B5B;
+  font-size: 4rem;
+  padding: 5%;
+}
+
+#footer {
+
+  height: 200px;
+  width: 100%;
+  background-color: #FFE8E8;
+  filter:brightness(97%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #BA5B5B;
 }

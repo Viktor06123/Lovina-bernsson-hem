@@ -10,7 +10,7 @@ body {
 
 #sticky-header {
     color: #FF007F;
-    background-color: #FFDDEE;
+    background-color: #FFE7BD;
     position: sticky;
     top: 0px;
     height: 90px;
@@ -42,10 +42,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #ff7aa4;
-}
-
 #button-group {
     padding-left: 1.2%;
     display: flex; 
@@ -69,7 +65,7 @@ main {
 
 #left_contact {
 grid-area: left_contact;
-background-color: #E9A7BB;
+background-color: #FFE8E8;
 height: 90vh;
 display: flex;
 flex-direction: column;
@@ -84,7 +80,7 @@ width: 100%;
 grid-area: right_order;
 height: 100%;
 width: 100%;
-background-color: #EEC9D9;
+background-color: #f6dede;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -94,7 +90,7 @@ justify-content: center;
     position: relative;
     padding: 2%;
     font-size: 2rem;
-    color: #FF007F;
+    color: #BA5B5B;
 }
 
 #order_box {
@@ -103,13 +99,13 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: #FF007F;
+    color: #be7272;
     
 
 }
 
 .rubriker {
-  color: #ff7aa4;
+  color: #bc6161;
   font-size: xx-large;
   padding-bottom: 2%;
 

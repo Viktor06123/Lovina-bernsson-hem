@@ -3,13 +3,13 @@
 
 
 body {
-  background-color: #FFDDEE;
+  background-color: #FFE8E8;
   font-family: Arial, sans-serif;
 }
 
 #sticky-header {
     color: #FF007F;
-    background-color: #FFDDEE;
+    background-color: #FFE7BD;
     position: sticky;
     top: 0px;
     height: 90px;
@@ -41,10 +41,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #ff7aa4;
-}
-
 #button-group {
     padding-left: 1.2%;
     display: flex; 
@@ -65,7 +61,7 @@ body {
 }
 
 .box {
-  color: #ff7aa4;
+  color: #BA5B5B;
   background-size:cover;
   background-position: center;
   border: 2px transparent;
@@ -76,7 +72,7 @@ body {
   font-size: 3rem;
   font-family: sans-serif;
   user-select: none;
-   box-shadow: inset 0 0 0 55px #FFCCE1;
+   box-shadow: inset 0 0 0 55px #f4e2e2;
 }
 
 .box_link {
@@ -93,27 +89,6 @@ body {
 
 .box:nth-child(2) { 
     background-image: 	url(../img/exempel_tavla.jpg); 
-
-}
-
-
-.box:nth-child(3) { 
-    background-color: #FDFFB6; 
-
-}
-
-.box:nth-child(4) { 
-    background-color: #CAFFBF; 
-
-}
-
-.box:nth-child(5) { 
-    background-color: #9BF6FF; 
-
-}
-
-.box:nth-child(6) { 
-    background-color: #0062ff; 
 
 }
 
@@ -139,30 +114,20 @@ body {
   font-size: 3rem;
   font-family: sans-serif;
   user-select: none;
-  box-shadow: inset 0 0 0 55px #FFCCE1;
+  box-shadow: inset 0 0 0 55px #f4e2e2;
   background-image: url(../img/kuligcock.jpg);
   z-index: 2;
 }
 
 .inner_box:hover { 
-  box-shadow: inset 0 0 0 0px #FFCCE1;
+  box-shadow: inset 0 0 0 0px #f4e2e2;
   transition: 0.5s;
   z-index: 2;
 }
 
-/* .inner_box:hover {
-  width: 150%;
-  height: 150%;
-  z-index: 2;
-  #boxes-grid {
-    display: flex;
-    justify-content: space-evenly;
-
-  }
-} */
 
 #collection_name {
-  color: #FF007F;
+  color: #BA5B5B;
   font-size: 2rem;
 
 }
@@ -191,4 +156,16 @@ body {
 a {
   text-decoration: none;
 
+}
+
+#footer {
+
+  height: 200px;
+  width: 100%;
+  background-color: #FFE8E8;
+  filter:brightness(97%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #BA5B5B;
 }
